@@ -46,4 +46,4 @@ jobs:
       # Use a Fixed Virtual Platform (instructions set model) to run the application. STDIO is redirected to the host and displayed.
       - name: Run Basic Project
         run : |
-          FVP_MPS2_Corstone_SSE-300 -q --cyclelimit 100000000 -f ${{ github.workspace }}/cloud_ci_demo/basic/ARMCM55_config.txt ${{ github.workspace }}/cloud_ci_demo/basic/Objects/basic.axf  
+          FVP_Corstone_SSE-300_Ethos-U55 -q --cyclelimit 100000000 -f ${{ github.workspace }}/cloud_ci_demo/basic/ARMCM55_config.txt ${{ github.workspace }}/cloud_ci_demo/basic/Objects/basic.axf  

@@ -1,8 +1,8 @@
 # Parameters:
 # instance.parameter=value       #(type, mode) default = 'def value' : description : [min..max]
 #------------------------------------------------------------------------------
-fvp_mps2_board.mps2_visualisation.disable-visualisation=1   # (bool  , init-time) default = '0'      : Enable/disable visualisation
-fvp_mps2_board.DISABLE_GATING=1                             # (bool  , init-time) default = '0'      : Disable Memory gating logic
+mps3_board.visualisation.disable-visualisation=1   # (bool  , init-time) default = '0'      : Enable/disable visualisation
+mps3_board.DISABLE_GATING=1                             # (bool  , init-time) default = '0'      : Disable Memory gating logic
 #cpu0.FPU=0                                            # (bool  , init-time) default = '1'      : Set whether the model has VFP support
 #cpu0.SECEXT=0                                         # (bool  , init-time) default = '1'      : Whether the ARMv8-M Security Extensions are included
 cpu0.semihosting-enable=1                             # (bool  , init-time) default = '1'      : Enable semihosting SVC traps. Applications that do not use semihosting must set this parameter to false.
